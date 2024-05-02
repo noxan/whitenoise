@@ -18,12 +18,12 @@ from django.core.wsgi import get_wsgi_application
 from django.test.utils import override_settings
 from django.utils.functional import empty
 
-from .utils import AppServer
-from .utils import AsgiAppServer
-from .utils import AsgiReceiveEmulator
-from .utils import AsgiScopeEmulator
-from .utils import AsgiSendEmulator
-from .utils import Files
+from tests.utils import AppServer
+from tests.utils import AsgiAppServer
+from tests.utils import AsgiReceiveEmulator
+from tests.utils import AsgiScopeEmulator
+from tests.utils import AsgiSendEmulator
+from tests.utils import Files
 from whitenoise.middleware import WhiteNoiseFileResponse
 from whitenoise.middleware import WhiteNoiseMiddleware
 

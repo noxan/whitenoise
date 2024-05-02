@@ -24,6 +24,15 @@ Worried that serving static files with Python is horribly inefficient?
 Still think you should be using Amazon S3? Have a look at the `Infrequently
 Asked Questions`_ below.
 
+Requirements
+------------
+
+WhiteNoise works with any WSGI-compatible application.
+
+Python 3.8 to 3.12 supported.
+
+Django 3.2 to 5.0 supported.
+
 Installation
 ------------
 
